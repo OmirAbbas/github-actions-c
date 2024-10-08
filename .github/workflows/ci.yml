@@ -3,7 +3,7 @@ name: Build and Run C Program
 on:
   push:
     branches:
-      - main
+      - anything
 
 jobs:
   build:
@@ -25,4 +25,3 @@ jobs:
       - name: Run C program
         run: |
           ./hello
-
